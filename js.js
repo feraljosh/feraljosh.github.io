@@ -73,7 +73,7 @@ $(document).ready(function() {
 
 				$("#details").html("");
 				$("#notes").html("");
-				$("#suggestion").html("<table></table>");
+				$("#suggestion").html("<table><thead><tr><td>Title</td><td>Platform</td><td>Notes</td></tr></thead><tbody></tbody></table>");
 
 				$(xmlDoc).find("GAME").each(function(i) {
 					var name = $(this).find("NAME").text();
@@ -81,7 +81,7 @@ $(document).ready(function() {
 					var notes = $(this).find("NOTES").text();
 					var $checkbox = $("#" + platform);
 					if ($checkbox.is(':checked')) {
-						$("#suggestion table").append("<tr><td class='name'>" + name + "</td><td class='platform'>" + platform + "</td><td class='notes'>" + notes + "</td></tr>")
+						$("#suggestion tbody").append("<tr><td class='name'>" + name + "</td><td class='platform'>" + platform + "</td><td class='notes'>" + notes + "</td></tr>")
 					} else {
 						//skip
 					}
