@@ -12,7 +12,7 @@ $(document).ready(function() {
 	$("#suggest").click(function() {
 		var gamesArray = [];
 		$.ajax({
-			url : "allgames.xml"
+			url : "/allgames.xml"
 		}).done(function(data) {
 			$(data).children().each(function(i) {
 				var name = $(this).find("name").text();
@@ -42,7 +42,7 @@ $(document).ready(function() {
 
 			}
 		}).fail(function() {
-			$("#suggestion").html("Games list XML could not be loaded, are you sure you've allowed local file access?");
+			$("#suggestion").html("Games list XML could not be loaded!");
 		});
 
 	});
