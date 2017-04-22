@@ -63,6 +63,7 @@ $(document).ready(function() {
 
 		$("#listAll").click(function() {
 			//TODO: Some of this doesn't need to be repeated.
+			//TODO: why does this message not show?
 			$("#output").html("<div class='message'><em>Working...</em></div>");
 			var gamesArray = [];
 			var platformSelected = false;

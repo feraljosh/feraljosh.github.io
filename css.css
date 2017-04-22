@@ -164,6 +164,7 @@ em {
 }
 #output .suggestion {
 	font-size: 22px;
+	line-height: 1.25;
 }
 #output .error {
 	color: red;
