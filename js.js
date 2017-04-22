@@ -12,8 +12,9 @@ $(document).ready(function() {
 	$("#suggest").click(function() {
 		var gamesArray = [];
 		$.ajax({
-			url : "allgames.xml"
+			url : "/allgames.xml"
 		}).done(function(data) {
+			console.log(data);
 			$(data).children().each(function(i) {
 				var name = $(this).find("name").text();
 				var platform = $(this).find("platform").text();
