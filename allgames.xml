@@ -1,6 +1,1377 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<GAMES>
+<GAMES num="1" name="Sheet1">
+	<GAME>
+		<NAME>Alleyway</NAME>
+		<PLATFORM>Gameboy</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Balloon Kid</NAME>
+		<PLATFORM>Gameboy</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Baseball</NAME>
+		<PLATFORM>Gameboy</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Donkey Kong</NAME>
+		<PLATFORM>Gameboy</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Kirby's Dream Land</NAME>
+		<PLATFORM>Gameboy</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Paperboy 2</NAME>
+		<PLATFORM>Gameboy</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Pokemon: Special Pikachu Edition</NAME>
+		<PLATFORM>Gameboy</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Star Trek</NAME>
+		<PLATFORM>Gameboy</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Super Mario Land</NAME>
+		<PLATFORM>Gameboy</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Yoshi</NAME>
+		<PLATFORM>Gameboy</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Advance Wars 2</NAME>
+		<PLATFORM>GBA</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Final Fantasy I &amp; II</NAME>
+		<PLATFORM>GBA</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Frogger's Adventures</NAME>
+		<PLATFORM>GBA</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Gradius Galaxies</NAME>
+		<PLATFORM>GBA</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Grand Theft Auto</NAME>
+		<PLATFORM>GBA</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Megaman &amp; Bass</NAME>
+		<PLATFORM>GBA</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Metroid Fusion</NAME>
+		<PLATFORM>GBA</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>NHL 2002</NAME>
+		<PLATFORM>GBA</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Pac-Man Collection</NAME>
+		<PLATFORM>GBA</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Riviera: The Promised Land</NAME>
+		<PLATFORM>GBA</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Spyro: Season of Ice</NAME>
+		<PLATFORM>GBA</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Star Wars Episode 3 Revenge of the Sith</NAME>
+		<PLATFORM>GBA</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>The Legend of Zelda</NAME>
+		<PLATFORM>GBA</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>The Legend of Zelda: the Minish Cap</NAME>
+		<PLATFORM>GBA</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Tony Hawk's Pro Skater 2</NAME>
+		<PLATFORM>GBA</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Turok Evolution</NAME>
+		<PLATFORM>GBA</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Yoshi's Island</NAME>
+		<PLATFORM>GBA</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Columns</NAME>
+		<PLATFORM>Genesis</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Comix Zone</NAME>
+		<PLATFORM>Genesis</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Ecco the Dolphin</NAME>
+		<PLATFORM>Genesis</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Flashback</NAME>
+		<PLATFORM>Genesis</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Golden Axe</NAME>
+		<PLATFORM>Genesis</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Jurassic Park</NAME>
+		<PLATFORM>Genesis</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Lawnmower Man</NAME>
+		<PLATFORM>Genesis</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Mortal Kombat 2</NAME>
+		<PLATFORM>Genesis</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Mortal Kombat 3</NAME>
+		<PLATFORM>Genesis</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>NHLPA '93</NAME>
+		<PLATFORM>Genesis</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>NHL '96</NAME>
+		<PLATFORM>Genesis</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Rambo III</NAME>
+		<PLATFORM>Genesis</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>RBI Baseball 94</NAME>
+		<PLATFORM>Genesis</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Risk</NAME>
+		<PLATFORM>Genesis</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Shadowrun</NAME>
+		<PLATFORM>Genesis</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Sonic the Hedgehog</NAME>
+		<PLATFORM>Genesis</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Sonic the Hedgehog 2</NAME>
+		<PLATFORM>Genesis</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Starflight</NAME>
+		<PLATFORM>Genesis</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES>I think I have 2 copies of this.</NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Steel Empire</NAME>
+		<PLATFORM>Genesis</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Sub-Terrania</NAME>
+		<PLATFORM>Genesis</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Taz-Mania</NAME>
+		<PLATFORM>Genesis</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Vectorman</NAME>
+		<PLATFORM>Genesis</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Warlock</NAME>
+		<PLATFORM>Genesis</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Zero Tolerance</NAME>
+		<PLATFORM>Genesis</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Freespace 2</NAME>
+		<PLATFORM>GOG</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>NEO Scavenger</NAME>
+		<PLATFORM>GOG</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Neverwinter Nights Diamond</NAME>
+		<PLATFORM>GOG</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Saints Row 2</NAME>
+		<PLATFORM>GOG</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Star Control</NAME>
+		<PLATFORM>GOG</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Star Control 2</NAME>
+		<PLATFORM>GOG</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Cruis'n World</NAME>
+		<PLATFORM>N64</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Goldeneye 007</NAME>
+		<PLATFORM>N64</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Perfect Dark</NAME>
+		<PLATFORM>N64</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Road Rash 64</NAME>
+		<PLATFORM>N64</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>San Francisco Rush 2049</NAME>
+		<PLATFORM>N64</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Star Wars Episode 1 Racer</NAME>
+		<PLATFORM>N64</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Turok 2 Seeds of Evil</NAME>
+		<PLATFORM>N64</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Vigilante 8: 2nd Offense</NAME>
+		<PLATFORM>N64</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Wipeout 64</NAME>
+		<PLATFORM>N64</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Dragon Warrior</NAME>
+		<PLATFORM>NES</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Duck Tales</NAME>
+		<PLATFORM>NES</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Excitebike</NAME>
+		<PLATFORM>NES</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Ice Hockey</NAME>
+		<PLATFORM>NES</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Marble Madness</NAME>
+		<PLATFORM>NES</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Megaman 3</NAME>
+		<PLATFORM>NES</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Punisher</NAME>
+		<PLATFORM>NES</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Renegade</NAME>
+		<PLATFORM>NES</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Skate or Die</NAME>
+		<PLATFORM>NES</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Super Contra</NAME>
+		<PLATFORM>NES</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Super Mario 3</NAME>
+		<PLATFORM>NES</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Super Mario Bros. &amp; Duck Hunt</NAME>
+		<PLATFORM>NES</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Super Mario Bros. 2</NAME>
+		<PLATFORM>NES</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Teenage Mutant Ninja Turtles</NAME>
+		<PLATFORM>NES</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>The Legend of Zelda</NAME>
+		<PLATFORM>NES</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Top Gun</NAME>
+		<PLATFORM>NES</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Aliens vs. Predator 2</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>American McGee's Alice</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Ballistics</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES>Burned copy, where is the original?</NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Bang! Gunship Elite</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE>TRUE</EXCLUDE>
+		<NOTES>Where is the CD?</NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Battlefield 2142</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Battlefield Vietnam</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES>Lost original media, but have an installer somewhere</NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Black &amp; White</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Call of Cthulu: Dark Corners of the Earth</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES>Burned copy</NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Command &amp; Conquer: Tiberian Sun</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Doom 2</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES>Where is this installed?</NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Doom 3</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Dungeon Keeper 2</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Emperor: Battle for Dune</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>F.E.A.R.</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>F22 Lightning 3</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Fallout</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Far Cry</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Gladiators: Galactic Circus Games</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Half Life: Opposing Force</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Hitman</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Hitman 2</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Hostile Waters Antaeus Rising</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Master of Orion 3</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Max Payne</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Max Payne 2</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Messiah</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Omikron: The Nomad Soul</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Prince of Persia: Warrior Within</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Rainbow Six: Rogue Spear</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Red Alert 2</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Return Fire</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Return to Castle Wolfenstein</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Rune</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Sacrifice</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Scrapland</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Sinistar Unleashed</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Syndicate Wars</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES>Burned copy</NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Terminus</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>The Suffering Ties that Bind</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>The Thing</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Tron 2.0</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Ace Combat 4</NAME>
+		<PLATFORM>PS2</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Armored Core 2</NAME>
+		<PLATFORM>PS2</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Burnout 3</NAME>
+		<PLATFORM>PS2</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Conflict: Desert Storm</NAME>
+		<PLATFORM>PS2</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Conflict: Global Terror</NAME>
+		<PLATFORM>PS2</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Deus Ex</NAME>
+		<PLATFORM>PS2</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Devil May Cry 3</NAME>
+		<PLATFORM>PS2</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Final Fantasy X</NAME>
+		<PLATFORM>PS2</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Ghost Recon: Jungle Storm</NAME>
+		<PLATFORM>PS2</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Gran Turismo 4</NAME>
+		<PLATFORM>PS2</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE>TRUE</EXCLUDE>
+		<NOTES>Not working</NOTES>
+	</GAME>
+	<GAME>
+		<NAME>GTA Vice City</NAME>
+		<PLATFORM>PS2</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE>TRUE</EXCLUDE>
+		<NOTES>Not working</NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Gun</NAME>
+		<PLATFORM>PS2</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Medal of Honor: Frontline</NAME>
+		<PLATFORM>PS2</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Metal Gear Solid 2</NAME>
+		<PLATFORM>PS2</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Need for Speed: Underground</NAME>
+		<PLATFORM>PS2</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Obscure</NAME>
+		<PLATFORM>PS2</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Prince of Persia Warrior Within</NAME>
+		<PLATFORM>PS2</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Project Eden</NAME>
+		<PLATFORM>PS2</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Rogue Ops</NAME>
+		<PLATFORM>PS2</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Tenchu: Fatal Shadows</NAME>
+		<PLATFORM>PS2</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Tenchu: Wrath of Heaven</NAME>
+		<PLATFORM>PS2</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Tony Hawk's Pro Skater 3</NAME>
+		<PLATFORM>PS2</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Twisted Metal: Black</NAME>
+		<PLATFORM>PS2</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Winback: Covert Operations</NAME>
+		<PLATFORM>PS2</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Area 51</NAME>
+		<PLATFORM>PSX</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Battle Stations</NAME>
+		<PLATFORM>PSX</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Bio Freaks</NAME>
+		<PLATFORM>PSX</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Bushido Blade 2</NAME>
+		<PLATFORM>PSX</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Deathtrap Dungeon</NAME>
+		<PLATFORM>PSX</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Diablo</NAME>
+		<PLATFORM>PSX</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Driver 2</NAME>
+		<PLATFORM>PSX</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Fear Effect</NAME>
+		<PLATFORM>PSX</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Final Fantasy VII</NAME>
+		<PLATFORM>PSX</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Final Fantasy VIII</NAME>
+		<PLATFORM>PSX</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Ghost in the Shell</NAME>
+		<PLATFORM>PSX</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Grand Theft Auto 2</NAME>
+		<PLATFORM>PSX</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Lethal Enforcers I &amp; II</NAME>
+		<PLATFORM>PSX</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Medal of Honor: Underground</NAME>
+		<PLATFORM>PSX</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Mortal Kombat 3</NAME>
+		<PLATFORM>PSX</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Moto Racer World Tour</NAME>
+		<PLATFORM>PSX</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Nuclear Strike</NAME>
+		<PLATFORM>PSX</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Powerslave</NAME>
+		<PLATFORM>PSX</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Red Alert: Retaliation</NAME>
+		<PLATFORM>PSX</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Road Rash 3D</NAME>
+		<PLATFORM>PSX</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Star Wars: Jedi Power Battles</NAME>
+		<PLATFORM>PSX</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Tenchu 2</NAME>
+		<PLATFORM>PSX</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Tomb Raider</NAME>
+		<PLATFORM>PSX</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Tomb Raider: The Last Revelation</NAME>
+		<PLATFORM>PSX</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Total Eclipse Turbo</NAME>
+		<PLATFORM>PSX</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Twisted Metal 2</NAME>
+		<PLATFORM>PSX</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Warhawk</NAME>
+		<PLATFORM>PSX</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Blast Chamber</NAME>
+		<PLATFORM>Saturn</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES>Burned copy</NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Command &amp; Conquer</NAME>
+		<PLATFORM>Saturn</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Earthworm Jim 2</NAME>
+		<PLATFORM>Saturn</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES>Burned copy</NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Fighters Megamix</NAME>
+		<PLATFORM>Saturn</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES>Burned copy</NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Ghen War</NAME>
+		<PLATFORM>Saturn</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES>Burned copy</NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Guardian Heroes</NAME>
+		<PLATFORM>Saturn</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Legend of Oasis</NAME>
+		<PLATFORM>Saturn</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES>Burned copy</NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Mr. Bones</NAME>
+		<PLATFORM>Saturn</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Nights: Into Dreams</NAME>
+		<PLATFORM>Saturn</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES>Burned copy</NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Radiant Silvergun</NAME>
+		<PLATFORM>Saturn</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES>Burned copy</NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Road Rash</NAME>
+		<PLATFORM>Saturn</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Shining the Holy Ark</NAME>
+		<PLATFORM>Saturn</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES>Burned copy</NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Solar Eclipse</NAME>
+		<PLATFORM>Saturn</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES>Burned copy</NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Tomb Raider</NAME>
+		<PLATFORM>Saturn</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Virtua Fighter 2</NAME>
+		<PLATFORM>Saturn</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Virtua Fighter: Remix</NAME>
+		<PLATFORM>Saturn</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Virtua Racing</NAME>
+		<PLATFORM>Saturn</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Virtual ON</NAME>
+		<PLATFORM>Saturn</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Warcraft 2</NAME>
+		<PLATFORM>Saturn</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Monopoly</NAME>
+		<PLATFORM>SNES</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Yoshi's Cookie</NAME>
+		<PLATFORM>SNES</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Super Mario World</NAME>
+		<PLATFORM>SNES</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
 	<GAME>
 		<NAME>0RBITALIS</NAME>
 		<PLATFORM>Steam</PLATFORM>
@@ -254,14 +1625,14 @@
 		<NOTES></NOTES>
 	</GAME>
 	<GAME>
-		<NAME>Counter-Strike: Condition Zero</NAME>
+		<NAME>Counter-Strike</NAME>
 		<PLATFORM>Steam</PLATFORM>
 		<FAV></FAV>
 		<EXCLUDE></EXCLUDE>
 		<NOTES></NOTES>
 	</GAME>
 	<GAME>
-		<NAME>Counter-Strike</NAME>
+		<NAME>Counter-Strike: Condition Zero</NAME>
 		<PLATFORM>Steam</PLATFORM>
 		<FAV></FAV>
 		<EXCLUDE></EXCLUDE>
@@ -394,14 +1765,14 @@
 		<NOTES></NOTES>
 	</GAME>
 	<GAME>
-		<NAME>Eufloria HD</NAME>
+		<NAME>Eufloria</NAME>
 		<PLATFORM>Steam</PLATFORM>
 		<FAV></FAV>
 		<EXCLUDE></EXCLUDE>
 		<NOTES></NOTES>
 	</GAME>
 	<GAME>
-		<NAME>Eufloria</NAME>
+		<NAME>Eufloria HD</NAME>
 		<PLATFORM>Steam</PLATFORM>
 		<FAV></FAV>
 		<EXCLUDE></EXCLUDE>
@@ -422,13 +1793,6 @@
 		<NOTES></NOTES>
 	</GAME>
 	<GAME>
-		<NAME>Fieldrunners 2</NAME>
-		<PLATFORM>Steam</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
 		<NAME>Fieldrunners</NAME>
 		<PLATFORM>Steam</PLATFORM>
 		<FAV></FAV>
@@ -436,7 +1800,7 @@
 		<NOTES></NOTES>
 	</GAME>
 	<GAME>
-		<NAME>Five Nights at Freddy's 2</NAME>
+		<NAME>Fieldrunners 2</NAME>
 		<PLATFORM>Steam</PLATFORM>
 		<FAV></FAV>
 		<EXCLUDE></EXCLUDE>
@@ -444,6 +1808,13 @@
 	</GAME>
 	<GAME>
 		<NAME>Five Nights at Freddy's</NAME>
+		<PLATFORM>Steam</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES></NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Five Nights at Freddy's 2</NAME>
 		<PLATFORM>Steam</PLATFORM>
 		<FAV></FAV>
 		<EXCLUDE></EXCLUDE>
@@ -534,7 +1905,7 @@
 		<NOTES></NOTES>
 	</GAME>
 	<GAME>
-		<NAME>Half-Life 2: Lost Coast</NAME>
+		<NAME>Half-Life</NAME>
 		<PLATFORM>Steam</PLATFORM>
 		<FAV></FAV>
 		<EXCLUDE></EXCLUDE>
@@ -548,7 +1919,7 @@
 		<NOTES></NOTES>
 	</GAME>
 	<GAME>
-		<NAME>Half-Life</NAME>
+		<NAME>Half-Life 2: Lost Coast</NAME>
 		<PLATFORM>Steam</PLATFORM>
 		<FAV></FAV>
 		<EXCLUDE></EXCLUDE>
@@ -982,14 +2353,14 @@
 		<NOTES></NOTES>
 	</GAME>
 	<GAME>
-		<NAME>Shadow Warrior Classic Redux</NAME>
+		<NAME>Shadow Warrior</NAME>
 		<PLATFORM>Steam</PLATFORM>
 		<FAV></FAV>
 		<EXCLUDE></EXCLUDE>
 		<NOTES></NOTES>
 	</GAME>
 	<GAME>
-		<NAME>Shadow Warrior</NAME>
+		<NAME>Shadow Warrior Classic Redux</NAME>
 		<PLATFORM>Steam</PLATFORM>
 		<FAV></FAV>
 		<EXCLUDE></EXCLUDE>
@@ -1493,48 +2864,6 @@
 		<NOTES></NOTES>
 	</GAME>
 	<GAME>
-		<NAME>Saints Row 2</NAME>
-		<PLATFORM>GOG</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Neverwinter Nights Diamond</NAME>
-		<PLATFORM>GOG</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Freespace 2</NAME>
-		<PLATFORM>GOG</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>NEO Scavenger</NAME>
-		<PLATFORM>GOG</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Star Control</NAME>
-		<PLATFORM>GOG</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Star Control 2</NAME>
-		<PLATFORM>GOG</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
 		<NAME>Assassin's Creed 3</NAME>
 		<PLATFORM>Ubisoft</PLATFORM>
 		<FAV></FAV>
@@ -1547,1314 +2876,5 @@
 		<FAV></FAV>
 		<EXCLUDE></EXCLUDE>
 		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Wipeout 64</NAME>
-		<PLATFORM>N64</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Road Rash 64</NAME>
-		<PLATFORM>N64</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Vigilante 8: 2nd Offense</NAME>
-		<PLATFORM>N64</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Perfect Dark</NAME>
-		<PLATFORM>N64</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Goldeneye 007</NAME>
-		<PLATFORM>N64</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>San Francisco Rush 2049</NAME>
-		<PLATFORM>N64</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Star Wars Episode 1 Racer</NAME>
-		<PLATFORM>N64</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Cruis'n World</NAME>
-		<PLATFORM>N64</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Turok 2 Seeds of Evil</NAME>
-		<PLATFORM>N64</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Punisher</NAME>
-		<PLATFORM>NES</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>The Legend of Zelda</NAME>
-		<PLATFORM>NES</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Super Mario Bros. &amp; Duck Hunt</NAME>
-		<PLATFORM>NES</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Super Mario Bros. 2</NAME>
-		<PLATFORM>NES</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Ice Hockey</NAME>
-		<PLATFORM>NES</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Teenage Mutant Ninja Turtles</NAME>
-		<PLATFORM>NES</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Super Mario 3</NAME>
-		<PLATFORM>NES</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Dragon Warrior</NAME>
-		<PLATFORM>NES</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Marble Madness</NAME>
-		<PLATFORM>NES</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Skate or Die</NAME>
-		<PLATFORM>NES</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Excitebike</NAME>
-		<PLATFORM>NES</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Top Gun</NAME>
-		<PLATFORM>NES</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Duck Tales</NAME>
-		<PLATFORM>NES</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Megaman 3</NAME>
-		<PLATFORM>NES</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Renegade</NAME>
-		<PLATFORM>NES</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Super Contra</NAME>
-		<PLATFORM>NES</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Sonic the Hedgehog</NAME>
-		<PLATFORM>Genesis</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Sonic the Hedgehog 2</NAME>
-		<PLATFORM>Genesis</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Columns</NAME>
-		<PLATFORM>Genesis</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Lawnmower Man</NAME>
-		<PLATFORM>Genesis</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Steel Empire</NAME>
-		<PLATFORM>Genesis</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Vectorman</NAME>
-		<PLATFORM>Genesis</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Ecco the Dolphin</NAME>
-		<PLATFORM>Genesis</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Warlock</NAME>
-		<PLATFORM>Genesis</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>RBI Baseball 94</NAME>
-		<PLATFORM>Genesis</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Flashback</NAME>
-		<PLATFORM>Genesis</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Risk</NAME>
-		<PLATFORM>Genesis</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Jurassic Park</NAME>
-		<PLATFORM>Genesis</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Comix Zone</NAME>
-		<PLATFORM>Genesis</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>NHL 96</NAME>
-		<PLATFORM>Genesis</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Starflight</NAME>
-		<PLATFORM>Genesis</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES>I think I have 2 copies of this.</NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Shadowrun</NAME>
-		<PLATFORM>Genesis</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Zero Tolerance</NAME>
-		<PLATFORM>Genesis</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Golden Axe</NAME>
-		<PLATFORM>Genesis</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Mortal Kombat 2</NAME>
-		<PLATFORM>Genesis</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Mortal Kombat 3</NAME>
-		<PLATFORM>Genesis</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Sub-Terrania</NAME>
-		<PLATFORM>Genesis</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Rambo III</NAME>
-		<PLATFORM>Genesis</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Guardian Heroes</NAME>
-		<PLATFORM>Saturn</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Virtua Fighter: Remix</NAME>
-		<PLATFORM>Saturn</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Virtua Fighter 2</NAME>
-		<PLATFORM>Saturn</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Tomb Raider</NAME>
-		<PLATFORM>Saturn</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Warcraft 2</NAME>
-		<PLATFORM>Saturn</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Command &amp; Conquer</NAME>
-		<PLATFORM>Saturn</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Mr. Bones</NAME>
-		<PLATFORM>Saturn</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Road Rash</NAME>
-		<PLATFORM>Saturn</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Virtua Racing</NAME>
-		<PLATFORM>Saturn</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Virtual ON</NAME>
-		<PLATFORM>Saturn</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Solar Eclipse</NAME>
-		<PLATFORM>Saturn</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES>Burned copy</NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Radiant Silvergun</NAME>
-		<PLATFORM>Saturn</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES>Burned copy</NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Blast Chamber</NAME>
-		<PLATFORM>Saturn</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES>Burned copy</NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Legend of Oasis</NAME>
-		<PLATFORM>Saturn</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES>Burned copy</NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Nights: Into Dreams</NAME>
-		<PLATFORM>Saturn</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES>Burned copy</NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Shining the Holy Ark</NAME>
-		<PLATFORM>Saturn</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES>Burned copy</NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Fighters Megamix</NAME>
-		<PLATFORM>Saturn</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES>Burned copy</NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Ghen War</NAME>
-		<PLATFORM>Saturn</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES>Burned copy</NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Earthworm Jim 2</NAME>
-		<PLATFORM>Saturn</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES>Burned copy</NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Doom 3</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Far Cry</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>F.E.A.R.</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Scrapland</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>The Suffering Ties that Bind</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>The Thing</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Gladiators: Galactic Circus Games</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>F22 Lightning 3</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Rune</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Tron 2.0</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Aliens vs. Predator 2</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Emperor: Battle for Dune</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Omikron: The Nomad Soul</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Half Life: Opposing Force</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Terminus</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Return Fire</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Hitman</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Hitman 2</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Max Payne</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Max Payne 2</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Master of Orion 3</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Sacrifice</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Sinistar Unleashed</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Red Alert 2</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Fallout</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Dungeon Keeper 2</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Command &amp; Conquer: Tiberian Sun</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Ballistics</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES>Burned copy, where is the original?</NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Return to Castle Wolfenstein</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>American McGee's Alice</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Black &amp; White</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Messiah</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Hostile Waters Antaeus Rising</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Rainbow Six: Rogue Spear</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Prince of Persia: Warrior Within</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Battlefield 2142</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Call of Cthulu: Dark Corners of the Earth</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES>Burned copy</NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Syndicate Wars</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES>Burned copy</NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Doom 2</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES>Where is this installed?</NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Battlefield Vietnam</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES>Lost original media, but have an installer somewhere</NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Bang! Gunship Elite</NAME>
-		<PLATFORM>PC-ROM</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE>TRUE</EXCLUDE>
-		<NOTES>Where is the CD?</NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Star Trek</NAME>
-		<PLATFORM>Gameboy</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Pokemon: Special Pikachu Edition</NAME>
-		<PLATFORM>Gameboy</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Balloon Kid</NAME>
-		<PLATFORM>Gameboy</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Kirby's Dream Land</NAME>
-		<PLATFORM>Gameboy</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Paperboy 2</NAME>
-		<PLATFORM>Gameboy</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Donkey Kong</NAME>
-		<PLATFORM>Gameboy</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Yoshi</NAME>
-		<PLATFORM>Gameboy</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Alleyway</NAME>
-		<PLATFORM>Gameboy</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Baseball</NAME>
-		<PLATFORM>Gameboy</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Super Mario Land</NAME>
-		<PLATFORM>Gameboy</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Frogger's Adventures</NAME>
-		<PLATFORM>GBA</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Spyro: Season of Ice</NAME>
-		<PLATFORM>GBA</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Riviera: The Promised Land</NAME>
-		<PLATFORM>GBA</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Pac-Man Collection</NAME>
-		<PLATFORM>GBA</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>NHL 2002</NAME>
-		<PLATFORM>GBA</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Advance Wars 2</NAME>
-		<PLATFORM>GBA</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>The Legend of Zelda</NAME>
-		<PLATFORM>GBA</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Star Wars Episode 3 Revenge of the Sith</NAME>
-		<PLATFORM>GBA</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Megaman &amp; Bass</NAME>
-		<PLATFORM>GBA</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Metroid Fusion</NAME>
-		<PLATFORM>GBA</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Final Fantasy I &amp; II</NAME>
-		<PLATFORM>GBA</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Tony Hawk's Pro Skater 2</NAME>
-		<PLATFORM>GBA</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Yoshi's Island</NAME>
-		<PLATFORM>GBA</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Gradius Galaxies</NAME>
-		<PLATFORM>GBA</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Turok Evolution</NAME>
-		<PLATFORM>GBA</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>The Legend of Zelda: the Minish Cap</NAME>
-		<PLATFORM>GBA</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Grand Theft Auto</NAME>
-		<PLATFORM>GBA</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Monopoly</NAME>
-		<PLATFORM>SNES</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Yoshi's Cookie</NAME>
-		<PLATFORM>SNES</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Star Wars: Jedi Power Battles</NAME>
-		<PLATFORM>PSX</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Final Fantasy VII</NAME>
-		<PLATFORM>PSX</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Grand Theft Auto 2</NAME>
-		<PLATFORM>PSX</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Final Fantasy VIII</NAME>
-		<PLATFORM>PSX</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Fear Effect</NAME>
-		<PLATFORM>PSX</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Medal of Honor: Underground</NAME>
-		<PLATFORM>PSX</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Nuclear Strike</NAME>
-		<PLATFORM>PSX</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Powerslave</NAME>
-		<PLATFORM>PSX</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Lethal Enforcers I &amp; II</NAME>
-		<PLATFORM>PSX</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Warhawk</NAME>
-		<PLATFORM>PSX</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Battle Stations</NAME>
-		<PLATFORM>PSX</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Area 51</NAME>
-		<PLATFORM>PSX</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Moto Racer World Tour</NAME>
-		<PLATFORM>PSX</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Bio Freaks</NAME>
-		<PLATFORM>PSX</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Total Eclipse Turbo</NAME>
-		<PLATFORM>PSX</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Mortal Kombat 3</NAME>
-		<PLATFORM>PSX</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Ghost in the Shell</NAME>
-		<PLATFORM>PSX</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Diablo</NAME>
-		<PLATFORM>PSX</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Deathtrap Dungeon</NAME>
-		<PLATFORM>PSX</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Red Alert: Retaliation</NAME>
-		<PLATFORM>PSX</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Twisted Metal 2</NAME>
-		<PLATFORM>PSX</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Driver 2</NAME>
-		<PLATFORM>PSX</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Bushido Blade 2</NAME>
-		<PLATFORM>PSX</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Tenchu 2</NAME>
-		<PLATFORM>PSX</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Tomb Raider</NAME>
-		<PLATFORM>PSX</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Tomb Raider: The Last Revelation</NAME>
-		<PLATFORM>PSX</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Road Rash 3D</NAME>
-		<PLATFORM>PSX</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Tenchu: Wrath of Heaven</NAME>
-		<PLATFORM>PS2</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Tenchu: Fatal Shadows</NAME>
-		<PLATFORM>PS2</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Burnout 3</NAME>
-		<PLATFORM>PS2</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Prince of Persia Warrior Within</NAME>
-		<PLATFORM>PS2</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Conflict: Desert Storm</NAME>
-		<PLATFORM>PS2</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Conflict: Global Terror</NAME>
-		<PLATFORM>PS2</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Ghost Recon: Jungle Storm</NAME>
-		<PLATFORM>PS2</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Gun</NAME>
-		<PLATFORM>PS2</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Winback: Covert Operations</NAME>
-		<PLATFORM>PS2</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Metal Gear Solid 2</NAME>
-		<PLATFORM>PS2</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Medal of Honor: Frontline</NAME>
-		<PLATFORM>PS2</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Rogue Ops</NAME>
-		<PLATFORM>PS2</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Deus Ex</NAME>
-		<PLATFORM>PS2</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Obscure</NAME>
-		<PLATFORM>PS2</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Project Eden</NAME>
-		<PLATFORM>PS2</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Ace Combat 4</NAME>
-		<PLATFORM>PS2</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Need for Speed: Underground</NAME>
-		<PLATFORM>PS2</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Gran Turismo 4</NAME>
-		<PLATFORM>PS2</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE>TRUE</EXCLUDE>
-		<NOTES>Not working</NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Twisted Metal: Black</NAME>
-		<PLATFORM>PS2</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Final Fantasy X</NAME>
-		<PLATFORM>PS2</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Armored Core 2</NAME>
-		<PLATFORM>PS2</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Devil May Cry 3</NAME>
-		<PLATFORM>PS2</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>Tony Hawk's Pro Skater 3</NAME>
-		<PLATFORM>PS2</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
-	</GAME>
-	<GAME>
-		<NAME>GTA Vice City</NAME>
-		<PLATFORM>PS2</PLATFORM>
-		<FAV></FAV>
-		<EXCLUDE>TRUE</EXCLUDE>
-		<NOTES>Not working</NOTES>
 	</GAME>
 </GAMES>
