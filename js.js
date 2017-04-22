@@ -15,19 +15,18 @@ $(document).ready(function() {
 			url : "/allgames.xml"
 		}).done(function(data) {
 			
-			console.log(data);
-			
 			$(data).find("GAME").each(function(i) {
-				console.log("GAME"+i);
-				var name = $(this).find("name").text();
-				var platform = $(this).find("platform").text();
+				var name = $(this).find("NAME").text();
+				var platform = $(this).find("PLATFORM").text();
 				var game = {
 					name : name,
 					platform : platform
 				};
 
 				var $checkbox = $("#" + platform);
+				
 				if ($checkbox.is(':checked')) {
+					console.log(game);
 					gamesArray.push(game);
 				} else {
 					//skip
