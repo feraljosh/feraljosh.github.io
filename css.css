@@ -60,6 +60,7 @@ h1 {
 	font-weight: normal;
 	text-align: center;
 	color: #ccc;
+	font-size: 30px;
 }
 table {
 	width: 100%;
@@ -118,6 +119,7 @@ em {
 	cursor: pointer;
 	text-align: center;
 	margin-bottom: 20px;
+	display: inline-block;
 }
 .lg_btn:hover {
 	background: #555;
@@ -142,7 +144,7 @@ em {
 	border: 1px dashed #ff6600;
 	margin-bottom: 6px;
 	padding: 10px 10px 20px 10px;
-	border-radius: 8px;
+	border-radius: 4px;
 }
 #output .message, #output .suggestion, #output .error {
 	font-size: 18px;
