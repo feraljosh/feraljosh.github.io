@@ -37,8 +37,7 @@ $(document).ready(function() {
 			$("#notes").html("");
 			$("#output").html("<table><thead><tr><td>Title</td><td>Platform</td><td>Notes</td></tr></thead><tbody></tbody></table>");
 
-			$.each.(gamesArray,
-			function() {
+			$.each(gamesArray, function() {
 				var name = this.name;
 				var platform = this.platform;
 				var notes = this.notes;
