@@ -13,8 +13,8 @@ $(document).ready(function() {
 		var gamesArray = [];
 		$.ajax({
 			url : "/allgames.xml",
-        	cache: false,
-        	dataType: "xml"
+			cache : false,
+			dataType : "xml"
 		}).done(function(data) {
 			xmlDoc = $.parseXML(data),
 			$xml = $(xmlDoc),
