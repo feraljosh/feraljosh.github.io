@@ -15,12 +15,22 @@ li {
 	padding: 0;
 	display: inline-block;
 }
-.container {
-	max-width: 800px;
-	margin: 0 auto;
+input[type=checkbox] {
+	background: #000;
+	cursor: pointer;
+}
+label {
+	cursor: pointer;
+}
+label:hover {
+	color: #fff;
 }
 h1 {
 	text-align: center;
+}
+.container {
+	max-width: 800px;
+	margin: 0 auto;
 }
 .small_btn {
 	font-size: 10px;
@@ -51,7 +61,11 @@ h1 {
 	border-color: #fff;
 	color: #fff;
 }
-
+.lg_btn.disabled {
+	color: #555;
+	border-color: #555;
+	cursor: auto;
+}
 #suggestion {
 	font-size: 18px;
 	padding: 50px;
@@ -59,13 +73,8 @@ h1 {
 	color: #ff6600;
 	border: 1px dashed #ff6600;
 }
-input[type=checkbox] {
-	background: #000;
-	cursor: pointer;
-}
-label {
-	cursor: pointer;
-}
-label:hover {
-	color: #fff;
+#details {
+	font-size: 10px;
+	font-style: italic;
+	color: #aaa;
 }
