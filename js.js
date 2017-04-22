@@ -21,7 +21,7 @@ $(document).ready(function() {
 			console.log(xmlDoc);
 			console.log($xml);
 			
-			$xml.find("game").each(function(i) {
+			$(data).find("game").each(function(i) {
 				var name = $(this).find("name").text();
 				var platform = $(this).find("platform").text();
 				var game = {
