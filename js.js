@@ -14,14 +14,11 @@ $(document).ready(function() {
 		$.ajax({
 			url : "/allgames.xml"
 		}).done(function(data) {
-			xmlDoc = $.parseXML(data);
-			$xml = $(xmlDoc);
 			
 			console.log(data);
-			console.log(xmlDoc);
-			console.log($xml);
 			
 			$(data).find("game").each(function(i) {
+				console.log("game"+i);
 				var name = $(this).find("name").text();
 				var platform = $(this).find("platform").text();
 				var game = {
