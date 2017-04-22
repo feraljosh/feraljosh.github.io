@@ -11,42 +11,50 @@ $(document).ready(function() {
 	});
 	$("#suggest").click(function() {
 		var gamesArray = [];
-		$.ajax({
-			url : "/allgames.xml"
-		}).done(function(data) {
-			
-			$(data).find("GAME").each(function(i) {
-				var name = $(this).find("NAME").text();
-				var platform = $(this).find("PLATFORM").text();
-				var game = {
-					name : name,
-					platform : platform
-				};
+		var platformSelected = false;
 
-				var $checkbox = $("#" + platform);
-				
-				if ($checkbox.is(':checked')) {
-					console.log(game);
-					gamesArray.push(game);
-				} else {
-					//skip
-				}
-			});
+		$("input[type=checkbox]").each(function() {
+			if ($(this).is(':checked')) {
+				platformSelected = true;
+			}
+		});
 
-			var count = gamesArray.length;
-			console.log(count + " games total");
-			if (count > 0) {
+		if (platformSelected) {
+			$.ajax({
+				url : "/allgames.xml"
+			}).done(function(data) {
+
+				$(data).find("GAME").each(function(i) {
+					var name = $(this).find("NAME").text();
+					var platform = $(this).find("PLATFORM").text();
+					var game = {
+						name : name,
+						platform : platform
+					};
+
+					var $checkbox = $("#" + platform);
+
+					if ($checkbox.is(':checked')) {
+						console.log(game);
+						gamesArray.push(game);
+					} else {
+						//skip
+					}
+				});
+
+				var count = gamesArray.length;
+				console.log(count + " games total");
 
 				var random = gamesArray[Math.floor(Math.random() * gamesArray.length)]
 
 				$("#suggestion").html("You should play <strong>" + random.name + "</strong> (" + random.platform + ")");
-			} else {
-				$("#suggestion").html("You have to select at least one platform first!");
 
-			}
-		}).fail(function(jqXHR, textStatus) {
-			alert("Request failed: " + textStatus);
-		});
+			}).fail(function(jqXHR, textStatus) {
+				alert("Request failed: " + textStatus);
+			});
+		} else {
+			$("#suggestion").html("You have to select at least one platform first you noob!");
+		}
 
 	});
 });
