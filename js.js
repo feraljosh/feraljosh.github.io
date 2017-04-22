@@ -12,7 +12,7 @@ $(document).ready(function() {
 	$("#suggest").click(function() {
 		var gamesArray = [];
 		$.ajax({
-			url : "https://feraljosh.github.io/allgames.xml"
+			url : "allgames.xml"
 		}).done(function(data) {
 			$(data).children().each(function(i) {
 				var name = $(this).find("name").text();
@@ -41,8 +41,8 @@ $(document).ready(function() {
 				$("#suggestion").html("You have to select at least one platform first!");
 
 			}
-		}).fail(function() {
-			$("#suggestion").html("Games list XML could not be loaded!");
+		}).fail(function(jqXHR, textStatus) {
+			alert("Request failed: " + textStatus);
 		});
 
 	});
