@@ -16,10 +16,10 @@ $(document).ready(function() {
         	cache: false,
         	dataType: "xml"
 		}).done(function(data) {
-			//xmlDoc = $.parseXML(data),
-			//$xml = $(xmlDoc),
-			//$title = $xml.find("title");
-			$(data).children().each(function(i) {
+			xmlDoc = $.parseXML(data),
+			$xml = $(xmlDoc),
+			$title = $xml.find("title");
+			$xml.children().each(function(i) {
 				var name = $(this).find("name").text();
 				var platform = $(this).find("platform").text();
 				var game = {
