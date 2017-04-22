@@ -21,7 +21,7 @@ $(document).ready(function() {
 
 	function hideWorkingMsg() {
 		console.log('hide');
-		//$("#workingMsg").hide();
+		$("#workingMsg").hide();
 	}
 
 	function getList(xmlDoc) {
@@ -106,12 +106,12 @@ $(document).ready(function() {
 		$("#suggest").click(function() {
 			console.log('click');
 			showWorkingMsg();
-			setTimeout(getSuggestion(xmlDoc), 10);
+			//setTimeout(getSuggestion(xmlDoc), 10);
 		});
 		$("#listAll").click(function() {
 			console.log('click');
 			showWorkingMsg();
-			setTimeout(getList(xmlDoc), 10);
+			//setTimeout(getList(xmlDoc), 10);
 		});
 	}
 
