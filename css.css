@@ -98,6 +98,7 @@ em {
 	box-sizing: border-box;
 }
 #workingMsg{
+	display:none;
 	position:fixed;
 	background:#666;
 	opacity:.5;
