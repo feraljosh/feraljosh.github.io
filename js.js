@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	var xmlDoc;
 
-	$("#output").html("<div class='message'><em>Fetching games list...</em></div>");
+	$("#output").html("<div class='message'><em>Getting games list...</em></div>");
 
 	$("#selectAll").click(function() {
 		$("input[type=checkbox]").each(function() {
@@ -14,21 +14,15 @@ $(document).ready(function() {
 		});
 	});
 
-	function showWorkingMsg(next) {
-		console.log('show');
-		$("#workingMsg").show();
-		if (next == "list") {
-			getList(xmlDoc);
-		}
-		if (next == "suggest") {
-			getSuggestion(xmlDoc);
-		}
-	}
+	//function showWorkingMsg() {
+		//console.log('show');
+		//$("#workingMsg").show();
+	//}
 
-	function hideWorkingMsg() {
-		console.log('hide');
-		$("#workingMsg").hide();
-	}
+	//function hideWorkingMsg() {
+		//console.log('hide');
+		//$("#workingMsg").hide();
+	//}
 
 	function getList(xmlDoc) {
 		var total = 0;
@@ -59,7 +53,7 @@ $(document).ready(function() {
 		} else {
 			$("#output").html("<div class='error'>You have to select at least one platform first you noob!</div>");
 		}
-		hideWorkingMsg();
+		//hideWorkingMsg();
 	}
 
 	function getSuggestion(xmlDoc) {
@@ -110,17 +104,16 @@ $(document).ready(function() {
 		$("#suggest").removeClass("disabled");
 		$("#listAll").removeClass("disabled");
 		$("#suggest").click(function() {
-			console.log('click');
-			showWorkingMsg("suggest");
-			//setTimeout(getSuggestion(xmlDoc), 100);
+			//console.log('click');
+			//showWorkingMsg();
+			getSuggestion(xmlDoc);
 		});
 		$("#listAll").click(function() {
-			console.log('click');
-			showWorkingMsg("list");
-			//setTimeout(getList(xmlDoc), 100);
+			//console.log('click');
+			//showWorkingMsg();
+			getList(xmlDoc);
 		});
 	}
-
 
 	$.ajax({
 		url : "/allgames.xml"
