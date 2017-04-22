@@ -61,6 +61,7 @@ h1 {
 	text-align: center;
 	color: #ccc;
 	font-size: 30px;
+	margin-bottom:40px;
 }
 table {
 	width: 100%;
@@ -111,9 +112,9 @@ em {
 .lg_btn {
 	background: #444;
 	color: #96beff;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: bold;
-	padding: 10px 20px;
+	padding: 12px 26px;
 	border: 3px solid #96beff;
 	border-radius: 8px;
 	cursor: pointer;
