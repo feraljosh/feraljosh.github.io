@@ -49,6 +49,11 @@ h1 {
 	border-color: #fff;
 	color: #fff;
 }
+.small_btn.disabled {
+	color: #555;
+	border-color: #555;
+	cursor: auto;
+}
 .lg_btn {
 	background: #444;
 	color: #96beff;
@@ -71,6 +76,9 @@ h1 {
 	border-color: #555;
 	cursor: auto;
 }
+.centered {
+	text-align: center;
+}
 #suggestion {
 	font-size: 18px;
 	padding: 50px;
@@ -86,11 +94,11 @@ h1 {
 	font-size: 10px;
 	font-style: italic;
 	color: #aaa;
-	margin-bottom:6px;
+	margin-bottom: 6px;
 }
 #notes {
 	font-size: 10px;
 	font-style: italic;
 	color: #ccc;
-	margin-bottom:6px;
+	margin-bottom: 6px;
 }
