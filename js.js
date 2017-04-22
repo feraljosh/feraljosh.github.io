@@ -15,10 +15,12 @@ $(document).ready(function() {
 	});
 
 	function showWorkingMsg() {
+		console.log('show');
 		$("#workingMsg").show();
 	}
 
 	function hideWorkingMsg() {
+		console.log('hide');
 		$("#workingMsg").hide();
 	}
 
@@ -102,10 +104,12 @@ $(document).ready(function() {
 		$("#suggest").removeClass("disabled");
 		$("#listAll").removeClass("disabled");
 		$("#suggest").click(function() {
+			console.log('click');
 			showWorkingMsg();
 			getSuggestion(xmlDoc);
 		});
 		$("#listAll").click(function() {
+			console.log('click');
 			showWorkingMsg();
 			getList(xmlDoc);
 		});
