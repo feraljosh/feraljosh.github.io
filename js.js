@@ -12,15 +12,16 @@ $(document).ready(function() {
 	$("#suggest").click(function() {
 		var gamesArray = [];
 		$.ajax({
-			url : "/allgames.xml",
-			cache : false,
-			dataType : "xml"
+			url : "/allgames.xml"
 		}).done(function(data) {
-			xmlDoc = $.parseXML(data),
-			$xml = $(xmlDoc),
-			$title = $xml.find("name");
-			console.log($title);
-			$xml.children().each(function(i) {
+			xmlDoc = $.parseXML(data);
+			$xml = $(xmlDoc);
+			
+			console.log(data);
+			console.log(xmlDoc);
+			console.log($xml);
+			
+			$xml.find("game").each(function(i) {
 				var name = $(this).find("name").text();
 				var platform = $(this).find("platform").text();
 				var game = {
