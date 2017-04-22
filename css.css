@@ -107,7 +107,7 @@ em {
 	font-weight: bold;
 	padding: 10px 20px;
 	border: 3px solid #96beff;
-	border-radius: 4px;
+	border-radius: 8px;
 	cursor: pointer;
 	text-align: center;
 	margin-bottom: 20px;
@@ -134,11 +134,13 @@ em {
 	color: #ccc;
 	border: 1px dashed #ff6600;
 	margin-bottom: 6px;
+	padding: 10px;
+	border-radius: 8px;
 }
 #output .message, #output .suggestion, #output .error {
 	font-size: 18px;
 	text-align: center;
-	padding: 50px;
+	padding: 40px;
 }
 #output .error {
 	color: red;
