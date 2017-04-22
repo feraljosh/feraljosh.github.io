@@ -18,7 +18,8 @@ $(document).ready(function() {
 		}).done(function(data) {
 			xmlDoc = $.parseXML(data),
 			$xml = $(xmlDoc),
-			$title = $xml.find("title");
+			$title = $xml.find("name");
+			console.log($title);
 			$xml.children().each(function(i) {
 				var name = $(this).find("name").text();
 				var platform = $(this).find("platform").text();
