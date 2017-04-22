@@ -1,8 +1,14 @@
 $(document).ready(function() {
 	$("#output").html("<div class='message'><em>Getting games list...</em></div>");
-	function showWorkingMsg(){
-		$("#output").html("<div class='message'><em>Working...</em></div>");
+	function showWorkingMsg() {
+		$("#workingMsg").show();
 	}
+
+	function hideWorkingMsg() {
+		$("#workingMsg").hide();
+	}
+
+
 	$.ajax({
 		url : "/allgames.xml"
 	}).done(function(data) {
@@ -63,6 +69,7 @@ $(document).ready(function() {
 			} else {
 				$("#output").html("<div class='error'>You have to select at least one platform first you noob!</div>");
 			}
+			hideWorkingMsg();
 		});
 
 		$("#listAll").click(function() {
@@ -99,8 +106,8 @@ $(document).ready(function() {
 			} else {
 				$("#output").html("<div class='error'>You have to select at least one platform first you noob!</div>");
 			}
+			hideWorkingMsg();
 		});
-
 	}).fail(function(jqXHR, textStatus) {
 		$("#output").html("<div class='error'>Failed to retrieve games list! Error: " + textStatus + "</div>");
 	});
