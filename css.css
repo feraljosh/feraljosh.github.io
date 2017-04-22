@@ -20,6 +20,7 @@ input[type=checkbox] {
 	cursor: pointer;
 }
 label {
+	color: #ccc;
 	cursor: pointer;
 }
 label:hover {
@@ -27,6 +28,7 @@ label:hover {
 }
 h1 {
 	text-align: center;
+	color: #ccc;
 }
 .container {
 	max-width: 800px;
@@ -70,8 +72,11 @@ h1 {
 	font-size: 18px;
 	padding: 50px;
 	text-align: center;
-	color: #ff6600;
 	border: 1px dashed #ff6600;
+	margin-bottom: 6px;
+}
+#suggestion strong {
+	color: #ff6600;
 }
 #details {
 	font-size: 10px;
