@@ -64,13 +64,13 @@ $(document).ready(function() {
 			//TODO: Some of this doesn't need to be repeated.
 			var gamesArray = [];
 			var platformSelected = false;
+			var total = 0;
 			$("input[type=checkbox]").each(function() {
 				if ($(this).is(':checked')) {
 					platformSelected = true;
 				}
 			});
 			if (platformSelected) {
-
 				$("#details").html("");
 				$("#notes").html("");
 				$("#output").html("<table><thead><tr><td>Title</td><td>Platform</td><td>Notes</td></tr></thead><tbody></tbody></table>");
@@ -82,17 +82,18 @@ $(document).ready(function() {
 					var $checkbox = $("#" + platform);
 					if ($checkbox.is(':checked')) {
 						$("#output tbody").append("<tr><td class='name'>" + name + "</td><td class='platform'>" + platform + "</td><td class='notes'>" + notes + "</td></tr>")
+						total++;
 					} else {
 						//skip
 					}
 				});
-				$("#details").html("Total: " + gamesArray.length + " games.");
+				$("#details").html("Total: " + total + " games.");
 			} else {
 				$("#output").html("<div class='error'>You have to select at least one platform first you noob!</div>");
 			}
 		});
 
 	}).fail(function(jqXHR, textStatus) {
-		$("#output").html("<div class='error'>Failed to retrieve games list! Error: " + textStatus+"</div>");
+		$("#output").html("<div class='error'>Failed to retrieve games list! Error: " + textStatus + "</div>");
 	});
 });
