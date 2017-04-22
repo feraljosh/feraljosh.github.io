@@ -25,12 +25,15 @@ $(document).ready(function() {
 				}
 			});
 			if (platformSelected) {
+				//TODO - can we improve performance by refactoring this?
 				$(xmlDoc).find("GAME").each(function(i) {
 					var name = $(this).find("NAME").text();
 					var platform = $(this).find("PLATFORM").text();
+					var notes = $(this).find("NOTES").text();
 					var game = {
 						name : name,
-						platform : platform
+						platform : platform,
+						notes : notes
 					};
 
 					var $checkbox = $("#" + platform);
@@ -44,6 +47,14 @@ $(document).ready(function() {
 				var random = gamesArray[Math.floor(Math.random() * gamesArray.length)]
 				$("#suggestion").html("You should play <strong>" + random.name + "</strong> (" + random.platform + ")");
 				$("#details").html("Suggestion was chosen from a list of " + gamesArray.length + " games.");
+								
+								
+				if(random.notes !=""){
+					$("#notes").html("Notes: " + random.notes);
+				}else{
+					$("#notes").html("");
+				}
+
 			} else {
 				$("#suggestion").html("You have to select at least one platform first you noob!");
 			}
