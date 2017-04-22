@@ -18,6 +18,7 @@ $(document).ready(function() {
 		$("#suggest").removeClass("disabled");
 		$("#listAll").removeClass("disabled");
 		$("#suggest").click(function() {
+			$("#output").html("<div class='message'><em>Working...</em></div>");
 			var gamesArray = [];
 			var platformSelected = false;
 			$("input[type=checkbox]").each(function() {
@@ -62,6 +63,7 @@ $(document).ready(function() {
 
 		$("#listAll").click(function() {
 			//TODO: Some of this doesn't need to be repeated.
+			$("#output").html("<div class='message'><em>Working...</em></div>");
 			var gamesArray = [];
 			var platformSelected = false;
 			var total = 0;
