@@ -103,6 +103,9 @@ em {
 	cursor: pointer;
 	display: inline-block;
 }
+.small_btn + .small_btn {
+	margin-left: 5px;
+}
 .small_btn:hover {
 	background: #555;
 	border-color: #fff;
