@@ -155,9 +155,12 @@ em {
 	border-radius: 4px;
 }
 #output .message, #output .suggestion, #output .error {
-	font-size: 18px;
+	font-size: 16px;
 	text-align: center;
 	padding: 40px;
+}
+#output .suggestion {
+	font-size: 22px;
 }
 #output .error {
 	color: red;
