@@ -1,10 +1,10 @@
 $(document).ready(function() {
-	$("#suggestion").html("Getting games list...");
+	$("#output").html("<div class='message'><em>Getting games list...</em></div>");
 	$.ajax({
 		url : "/allgames.xml"
 	}).done(function(data) {
 		var xmlDoc = data;
-		$("#suggestion").html("<em>Games list retrieved successfully.</em>");
+		$("#output").html("<div class='message'><em>Games list retrieved successfully.</em></div>");
 		$("#selectAll").click(function() {
 			$("input[type=checkbox]").each(function() {
 				$(this).prop('checked', true)
@@ -46,7 +46,7 @@ $(document).ready(function() {
 					}
 				});
 				var random = gamesArray[Math.floor(Math.random() * gamesArray.length)]
-				$("#suggestion").html("You should play <strong>" + random.name + "</strong> (" + random.platform + ")");
+				$("#output").html("<div class='suggestion'>You should play <strong>" + random.name + "</strong> (" + random.platform + ")</div>");
 				$("#details").html("Suggestion was chosen from a list of " + gamesArray.length + " games.");
 
 				if (random.notes != "") {
@@ -56,7 +56,7 @@ $(document).ready(function() {
 				}
 
 			} else {
-				$("#suggestion").html("You have to select at least one platform first you noob!");
+				$("#output").html("<div class='error'>You have to select at least one platform first you noob!</div>");
 			}
 		});
 
@@ -73,7 +73,7 @@ $(document).ready(function() {
 
 				$("#details").html("");
 				$("#notes").html("");
-				$("#suggestion").html("<table><thead><tr><td>Title</td><td>Platform</td><td>Notes</td></tr></thead><tbody></tbody></table>");
+				$("#output").html("<table><thead><tr><td>Title</td><td>Platform</td><td>Notes</td></tr></thead><tbody></tbody></table>");
 
 				$(xmlDoc).find("GAME").each(function(i) {
 					var name = $(this).find("NAME").text();
@@ -81,18 +81,18 @@ $(document).ready(function() {
 					var notes = $(this).find("NOTES").text();
 					var $checkbox = $("#" + platform);
 					if ($checkbox.is(':checked')) {
-						$("#suggestion tbody").append("<tr><td class='name'>" + name + "</td><td class='platform'>" + platform + "</td><td class='notes'>" + notes + "</td></tr>")
+						$("#output tbody").append("<tr><td class='name'>" + name + "</td><td class='platform'>" + platform + "</td><td class='notes'>" + notes + "</td></tr>")
 					} else {
 						//skip
 					}
 				});
 				$("#details").html("Total: " + gamesArray.length + " games.");
 			} else {
-				$("#suggestion").html("You have to select at least one platform first you noob!");
+				$("#output").html("<div class='error'>You have to select at least one platform first you noob!</div>");
 			}
 		});
 
 	}).fail(function(jqXHR, textStatus) {
-		$("#suggestion").html("Failed to retrieve games list! Error: " + textStatus);
+		$("#output").html("<div class='error'>Failed to retrieve games list! Error: " + textStatus+"</div>");
 	});
 });

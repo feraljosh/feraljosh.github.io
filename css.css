@@ -65,12 +65,14 @@ table {
 	width: 100%;
 }
 td {
-	font-size: 12px;
+	font-size: 13px;
 	color: #ccc;
+	padding:4px 10px 4px 0;
 }
 thead {
 	font-weight: bold;
-	color: #ddd;
+	color: #ededed;
+	border-bottom:1px solid #888;
 }
 .container {
 	max-width: 800px;
@@ -125,15 +127,22 @@ thead {
 	color:#ccc;
 	margin-bottom:16px;
 }
-#suggestion {
-	font-size: 18px;
-	padding: 50px;
-	text-align: center;
+#output {
+	color: #ccc;
 	border: 1px dashed #ff6600;
 	margin-bottom: 6px;
-	color: #ccc;
 }
-#suggestion strong {
+#output .message,
+#output .suggestion,
+#output .error {
+	font-size: 18px;
+	text-align: center;
+	padding: 50px;
+}
+#output .error {
+	color: red;
+}
+#output .suggestion strong {
 	color: #ff6600;
 }
 #details {
