@@ -4,7 +4,7 @@ $(document).ready(function() {
 		url : "/allgames.xml"
 	}).done(function(data) {
 		var xmlDoc = data;
-		$("#output").html("<div class='message'><em>Games list retrieved successfully.</em></div>");
+		$("#output").html("<div class='message'><em>Games list retrieved successfully. Standing by...</em></div>");
 		$("#selectAll").click(function() {
 			$("input[type=checkbox]").each(function() {
 				$(this).prop('checked', true)
