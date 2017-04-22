@@ -14,9 +14,15 @@ $(document).ready(function() {
 		});
 	});
 
-	function showWorkingMsg() {
+	function showWorkingMsg(next) {
 		console.log('show');
 		$("#workingMsg").show();
+		if (next == "list") {
+			getList(xmlDoc);
+		}
+		if (next == "suggest") {
+			getSuggestion(xmlDoc);
+		}
 	}
 
 	function hideWorkingMsg() {
@@ -105,15 +111,16 @@ $(document).ready(function() {
 		$("#listAll").removeClass("disabled");
 		$("#suggest").click(function() {
 			console.log('click');
-			showWorkingMsg();
-			setTimeout(getSuggestion(xmlDoc), 100);
+			showWorkingMsg("suggest");
+			//setTimeout(getSuggestion(xmlDoc), 100);
 		});
 		$("#listAll").click(function() {
 			console.log('click');
-			showWorkingMsg();
-			setTimeout(getList(xmlDoc), 100);
+			showWorkingMsg("list");
+			//setTimeout(getList(xmlDoc), 100);
 		});
 	}
+
 
 	$.ajax({
 		url : "/allgames.xml"
