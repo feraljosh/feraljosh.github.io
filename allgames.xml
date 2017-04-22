@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <GAMES>
 	<GAME>
 		<NAME>0RBITALIS</NAME>
@@ -1821,11 +1822,11 @@
 		<NOTES></NOTES>
 	</GAME>
 	<GAME>
-		<NAME>Starflight (2x)</NAME>
+		<NAME>Starflight</NAME>
 		<PLATFORM>Genesis</PLATFORM>
 		<FAV></FAV>
 		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
+		<NOTES>I think I have 2 copies of this.</NOTES>
 	</GAME>
 	<GAME>
 		<NAME>Shadowrun</NAME>
@@ -1947,67 +1948,67 @@
 		<NOTES></NOTES>
 	</GAME>
 	<GAME>
-		<NAME>Solar Eclipse (copy)</NAME>
+		<NAME>Solar Eclipse</NAME>
 		<PLATFORM>Saturn</PLATFORM>
 		<FAV></FAV>
 		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
+		<NOTES>Burned copy</NOTES>
 	</GAME>
 	<GAME>
-		<NAME>Radiant Silvergun (copy)</NAME>
+		<NAME>Radiant Silvergun</NAME>
 		<PLATFORM>Saturn</PLATFORM>
 		<FAV></FAV>
 		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
+		<NOTES>Burned copy</NOTES>
 	</GAME>
 	<GAME>
-		<NAME>Blast Chamber (copy)</NAME>
+		<NAME>Blast Chamber</NAME>
 		<PLATFORM>Saturn</PLATFORM>
 		<FAV></FAV>
 		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
+		<NOTES>Burned copy</NOTES>
 	</GAME>
 	<GAME>
-		<NAME>Legend of Oasis (copy)</NAME>
+		<NAME>Legend of Oasis</NAME>
 		<PLATFORM>Saturn</PLATFORM>
 		<FAV></FAV>
 		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
+		<NOTES>Burned copy</NOTES>
 	</GAME>
 	<GAME>
-		<NAME>Nights: Into Dreams (copy)</NAME>
+		<NAME>Nights: Into Dreams</NAME>
 		<PLATFORM>Saturn</PLATFORM>
 		<FAV></FAV>
 		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
+		<NOTES>Burned copy</NOTES>
 	</GAME>
 	<GAME>
-		<NAME>Shining the Holy Ark (copy)</NAME>
+		<NAME>Shining the Holy Ark</NAME>
 		<PLATFORM>Saturn</PLATFORM>
 		<FAV></FAV>
 		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
+		<NOTES>Burned copy</NOTES>
 	</GAME>
 	<GAME>
-		<NAME>Fighters Megamix (copy)</NAME>
+		<NAME>Fighters Megamix</NAME>
 		<PLATFORM>Saturn</PLATFORM>
 		<FAV></FAV>
 		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
+		<NOTES>Burned copy</NOTES>
 	</GAME>
 	<GAME>
-		<NAME>Ghen War (copy)</NAME>
+		<NAME>Ghen War</NAME>
 		<PLATFORM>Saturn</PLATFORM>
 		<FAV></FAV>
 		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
+		<NOTES>Burned copy</NOTES>
 	</GAME>
 	<GAME>
-		<NAME>Earthworm Jim 2 (copy)</NAME>
+		<NAME>Earthworm Jim 2</NAME>
 		<PLATFORM>Saturn</PLATFORM>
 		<FAV></FAV>
 		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
+		<NOTES>Burned copy</NOTES>
 	</GAME>
 	<GAME>
 		<NAME>Doom 3</NAME>
@@ -2199,11 +2200,11 @@
 		<NOTES></NOTES>
 	</GAME>
 	<GAME>
-		<NAME>Ballistics (copy, where is original?)</NAME>
+		<NAME>Ballistics</NAME>
 		<PLATFORM>PC-ROM</PLATFORM>
 		<FAV></FAV>
 		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
+		<NOTES>Burned copy, where is the original?</NOTES>
 	</GAME>
 	<GAME>
 		<NAME>Return to Castle Wolfenstein</NAME>
@@ -2262,25 +2263,39 @@
 		<NOTES></NOTES>
 	</GAME>
 	<GAME>
-		<NAME>Call of Cthulu: Dark Corners of the Earth (copy)</NAME>
+		<NAME>Call of Cthulu: Dark Corners of the Earth</NAME>
 		<PLATFORM>PC-ROM</PLATFORM>
 		<FAV></FAV>
 		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
+		<NOTES>Burned copy</NOTES>
 	</GAME>
 	<GAME>
-		<NAME>Syndicate Wars (copy)</NAME>
+		<NAME>Syndicate Wars</NAME>
 		<PLATFORM>PC-ROM</PLATFORM>
 		<FAV></FAV>
 		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
+		<NOTES>Burned copy</NOTES>
 	</GAME>
 	<GAME>
-		<NAME>Doom 2 (I know I have it somewhere)</NAME>
+		<NAME>Doom 2</NAME>
 		<PLATFORM>PC-ROM</PLATFORM>
 		<FAV></FAV>
 		<EXCLUDE></EXCLUDE>
-		<NOTES></NOTES>
+		<NOTES>Where is this installed?</NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Battlefield Vietnam</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE></EXCLUDE>
+		<NOTES>Lost original media, but have an installer somewhere</NOTES>
+	</GAME>
+	<GAME>
+		<NAME>Bang! Gunship Elite</NAME>
+		<PLATFORM>PC-ROM</PLATFORM>
+		<FAV></FAV>
+		<EXCLUDE>TRUE</EXCLUDE>
+		<NOTES>Where is the CD?</NOTES>
 	</GAME>
 	<GAME>
 		<NAME>Star Trek</NAME>
