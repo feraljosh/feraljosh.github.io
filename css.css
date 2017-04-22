@@ -74,6 +74,9 @@ thead {
 	color: #ededed;
 	border-bottom: 1px solid #888;
 }
+tbody tr:nth-child(even) {
+	background: #555;
+}
 em {
 	font-style: italic;
 }
