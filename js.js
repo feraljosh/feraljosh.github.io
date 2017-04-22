@@ -17,8 +17,8 @@ $(document).ready(function() {
 			
 			console.log(data);
 			
-			$(data).find("game").each(function(i) {
-				console.log("game"+i);
+			$(data).find("GAME").each(function(i) {
+				console.log("GAME"+i);
 				var name = $(this).find("name").text();
 				var platform = $(this).find("platform").text();
 				var game = {
