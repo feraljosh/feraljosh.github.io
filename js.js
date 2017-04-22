@@ -106,12 +106,12 @@ $(document).ready(function() {
 		$("#suggest").click(function() {
 			console.log('click');
 			showWorkingMsg();
-			//setTimeout(getSuggestion(xmlDoc), 10);
+			setTimeout(getSuggestion(xmlDoc), 100);
 		});
 		$("#listAll").click(function() {
 			console.log('click');
 			showWorkingMsg();
-			//setTimeout(getList(xmlDoc), 10);
+			setTimeout(getList(xmlDoc), 100);
 		});
 	}
 
