@@ -100,14 +100,14 @@ em {
 #workingMsg{
 	display:none;
 	position:fixed;
-	background:#666;
+	background:#000;
 	opacity:.5;
 	top:0;
 	right:0;
 	bottom:0;
 	left:0;
 }
-#workingMsg.span{
+#workingMsg span{
 	display:block;
 	font-size:2em;
 	color:#fff;

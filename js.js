@@ -21,7 +21,7 @@ $(document).ready(function() {
 
 	function hideWorkingMsg() {
 		console.log('hide');
-		$("#workingMsg").hide();
+		//$("#workingMsg").hide();
 	}
 
 	function getList(xmlDoc) {
