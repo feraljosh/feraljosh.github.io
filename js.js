@@ -1,5 +1,8 @@
 $(document).ready(function() {
 	$("#output").html("<div class='message'><em>Getting games list...</em></div>");
+	function showWorkingMsg(){
+		$("#output").html("<div class='message'><em>Working...</em></div>");
+	}
 	$.ajax({
 		url : "/allgames.xml"
 	}).done(function(data) {
@@ -19,7 +22,7 @@ $(document).ready(function() {
 		$("#listAll").removeClass("disabled");
 		$("#suggest").click(function() {
 			console.log("suggest");
-			$("#output").html("<div class='message'><em>Working...</em></div>");
+			showWorkingMsg();
 			var gamesArray = [];
 			var platformSelected = false;
 			$("input[type=checkbox]").each(function() {
@@ -66,7 +69,7 @@ $(document).ready(function() {
 			console.log("listAll");
 			//TODO: Some of this doesn't need to be repeated.
 			//TODO: why does this message not show?
-			$("#output").html("<div class='message'><em>Working...</em></div>");
+			showWorkingMsg();
 			var gamesArray = [];
 			var platformSelected = false;
 			var total = 0;
