@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	var xmlDoc;
 
-	$("#output").html("<div class='message'><em>Getting games list...</em></div>");
+	$("#output").html("<div class='message'><em>Fetching games list...</em></div>");
 
 	$("#selectAll").click(function() {
 		$("input[type=checkbox]").each(function() {
@@ -106,12 +106,12 @@ $(document).ready(function() {
 		$("#suggest").click(function() {
 			console.log('click');
 			showWorkingMsg();
-			getSuggestion(xmlDoc);
+			setTimeout(getSuggestion(xmlDoc), 10);
 		});
 		$("#listAll").click(function() {
 			console.log('click');
 			showWorkingMsg();
-			getList(xmlDoc);
+			setTimeout(getList(xmlDoc), 10);
 		});
 	}
 
