@@ -12,7 +12,7 @@ $(document).ready(function() {
 	$("#suggest").click(function() {
 		var gamesArray = [];
 		$.ajax({
-			url : "http://feraljosh.github.io/allgames.xml"
+			url : "https://feraljosh.github.io/allgames.xml"
 		}).done(function(data) {
 			$(data).children().each(function(i) {
 				var name = $(this).find("name").text();
