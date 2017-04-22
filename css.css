@@ -67,12 +67,15 @@ table {
 td {
 	font-size: 13px;
 	color: #ccc;
-	padding:4px 10px 4px 0;
+	padding: 4px 10px 4px 0;
 }
 thead {
 	font-weight: bold;
 	color: #ededed;
-	border-bottom:1px solid #888;
+	border-bottom: 1px solid #888;
+}
+em {
+	font-style: italic;
 }
 .container {
 	max-width: 800px;
@@ -121,20 +124,18 @@ thead {
 }
 .centered {
 	text-align: center;
-	margin-bottom:20px;
+	margin-bottom: 20px;
 }
-.or{
-	color:#ccc;
-	margin-bottom:16px;
+.or {
+	color: #ccc;
+	margin-bottom: 16px;
 }
 #output {
 	color: #ccc;
 	border: 1px dashed #ff6600;
 	margin-bottom: 6px;
 }
-#output .message,
-#output .suggestion,
-#output .error {
+#output .message, #output .suggestion, #output .error {
 	font-size: 18px;
 	text-align: center;
 	padding: 50px;
