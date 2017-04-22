@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$("#output").html("<div class='message'><em>Getting games list...</em></div>");
+
 	function showWorkingMsg() {
 		$("#workingMsg").show();
 	}
@@ -8,11 +8,7 @@ $(document).ready(function() {
 		$("#workingMsg").hide();
 	}
 
-
-	$.ajax({
-		url : "/allgames.xml"
-	}).done(function(data) {
-		var xmlDoc = data;
+	function init(xmlDoc) {
 		$("#output").html("<div class='message'><em>Games list retrieved successfully. Standing by...</em></div>");
 		$("#selectAll").click(function() {
 			$("input[type=checkbox]").each(function() {
@@ -27,7 +23,6 @@ $(document).ready(function() {
 		$("#suggest").removeClass("disabled");
 		$("#listAll").removeClass("disabled");
 		$("#suggest").click(function() {
-			console.log("suggest");
 			showWorkingMsg();
 			var gamesArray = [];
 			var platformSelected = false;
@@ -73,7 +68,6 @@ $(document).ready(function() {
 		});
 
 		$("#listAll").click(function() {
-			console.log("listAll");
 			//TODO: Some of this doesn't need to be repeated.
 			//TODO: why does this message not show?
 			showWorkingMsg();
@@ -108,6 +102,14 @@ $(document).ready(function() {
 			}
 			hideWorkingMsg();
 		});
+	}
+
+	$("#output").html("<div class='message'><em>Getting games list...</em></div>");
+	$.ajax({
+		url : "/allgames.xml"
+	}).done(function(data) {
+		var xmlDoc = data;
+		init(data);
 	}).fail(function(jqXHR, textStatus) {
 		$("#output").html("<div class='error'>Failed to retrieve games list! Error: " + textStatus + "</div>");
 	});
