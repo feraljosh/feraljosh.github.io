@@ -5,7 +5,8 @@ $(document).ready(function() {
 	var url = "//spreadsheets.google.com/feeds/list/" + spreadsheetID + "/od6/public/values";
 
 	var gamesArray = [];
-
+	var platformsArray = [];
+	
 	$("#output").html("<div class='message'><em>Getting games list...</em></div>");
 
 	$("#selectAll").click(function() {
@@ -13,6 +14,7 @@ $(document).ready(function() {
 			$(this).prop('checked', true)
 		});
 	});
+	
 	$("#selectNone").click(function() {
 		$("input[type=checkbox]").each(function() {
 			$(this).prop('checked', false)
@@ -77,7 +79,6 @@ $(document).ready(function() {
 		} else {
 			$("#output").html("<div class='error'>You have to select at least one platform first you noob!</div>");
 		}
-		//hideWorkingMsg();
 	}
 
 	function init() {
@@ -85,37 +86,12 @@ $(document).ready(function() {
 		$("#suggest").removeClass("disabled");
 		$("#listAll").removeClass("disabled");
 		$("#suggest").click(function() {
-			//console.log('click');
-			//showWorkingMsg();
 			getSuggestion();
 		});
 		$("#listAll").click(function() {
-			//console.log('click');
-			//showWorkingMsg();
 			getList();
 		});
 	}
-
-	/*
-	$.ajax({
-	url : "/allgames.xml"
-	}).done(function(data) {
-	$(data).find("GAME").each(function() {
-	var name = $(this).find("NAME").text();
-	var platform = $(this).find("PLATFORM").text();
-	var notes = $(this).find("NOTES").text();
-	var game = {
-	name : name,
-	platform : platform,
-	notes : notes
-	};
-	gamesArray.push(game);
-	});
-	init();
-	}).fail(function(jqXHR, textStatus) {
-	$("#output").html("<div class='error'>Failed to retrieve games list! Error: " + textStatus + "</div>");
-	});
-	*/
 
 	//HERE WE GOOOOOOOOOOOOOOOOOooooooooooooo!!!!
 	$.ajax({
@@ -134,11 +110,15 @@ $(document).ready(function() {
 					platform : platform,
 					notes : notes
 				};
-				console.log(game);
 				gamesArray.push(game);
+				
+				if(!platformsArray.contains(platform)){
+					platformsArray.push(platform);
+				}
 			});
 
 			init();
+			console.log(platformsArray);
 
 		},
 		error : function(res, status, error) {
