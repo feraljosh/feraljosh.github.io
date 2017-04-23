@@ -100,7 +100,7 @@ em {
 .disabled {
 	display: none;
 }
-.select_btns{
+.select_btns {
 }
 .small_btn {
 	background: #444;
@@ -110,7 +110,7 @@ em {
 	border-radius: 4px;
 	cursor: pointer;
 	display: inline-block;
-	margin-bottom:10px;
+	margin-bottom: 10px;
 }
 .small_btn + .small_btn {
 	margin-left: 5px;
@@ -121,12 +121,12 @@ em {
 	color: #fff;
 }
 /*
-.small_btn.disabled {
-	color: #555;
-	border-color: #555;
-	cursor: auto;
-}
-*/
+ .small_btn.disabled {
+ color: #555;
+ border-color: #555;
+ cursor: auto;
+ }
+ */
 .lg_btn {
 	background: #444;
 	color: #96beff;
@@ -146,12 +146,12 @@ em {
 	color: #fff;
 }
 /*
-.lg_btn.disabled {
-	color: #555;
-	border-color: #555;
-	cursor: auto;
-}
-*/
+ .lg_btn.disabled {
+ color: #555;
+ border-color: #555;
+ cursor: auto;
+ }
+ */
 .centered {
 	text-align: center;
 	margin-bottom: 20px;
