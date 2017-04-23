@@ -96,26 +96,26 @@ $(document).ready(function() {
 		});
 	}
 
-/*
+	/*
 	$.ajax({
-		url : "/allgames.xml"
+	url : "/allgames.xml"
 	}).done(function(data) {
-		$(data).find("GAME").each(function() {
-			var name = $(this).find("NAME").text();
-			var platform = $(this).find("PLATFORM").text();
-			var notes = $(this).find("NOTES").text();
-			var game = {
-				name : name,
-				platform : platform,
-				notes : notes
-			};
-			gamesArray.push(game);
-		});
-		init();
-	}).fail(function(jqXHR, textStatus) {
-		$("#output").html("<div class='error'>Failed to retrieve games list! Error: " + textStatus + "</div>");
+	$(data).find("GAME").each(function() {
+	var name = $(this).find("NAME").text();
+	var platform = $(this).find("PLATFORM").text();
+	var notes = $(this).find("NOTES").text();
+	var game = {
+	name : name,
+	platform : platform,
+	notes : notes
+	};
+	gamesArray.push(game);
 	});
-*/
+	init();
+	}).fail(function(jqXHR, textStatus) {
+	$("#output").html("<div class='error'>Failed to retrieve games list! Error: " + textStatus + "</div>");
+	});
+	*/
 
 	//HERE WE GOOOOOOOOOOOOOOOOOooooooooooooo!!!!
 	$.ajax({
@@ -124,20 +124,21 @@ $(document).ready(function() {
 		dataType : 'text',
 		success : function(data, status) {
 			//console.log('status : ' + status);
-			
+
 			$(data).find("entry").each(function() {
-			var name = $(this).find("gsx:name").text();
-			var platform = $(this).find("gsx:platform").text();
-			var notes = $(this).find("gsx:notes").text();
-			var game = {
-				name : name,
-				platform : platform,
-				notes : notes
-			};
-			gamesArray.push(game);
-		});
-		init();
-		
+				var name = $(this).find("name").text();
+				var platform = $(this).find("platform").text();
+				var notes = $(this).find("notes").text();
+				var game = {
+					name : name,
+					platform : platform,
+					notes : notes
+				};
+				console.log(game);
+				gamesArray.push(game);
+			});
+			init();
+
 		},
 		error : function(res, status, error) {
 			console.log('status : ' + status);
