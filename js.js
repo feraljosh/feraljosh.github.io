@@ -13,20 +13,7 @@ $(document).ready(function() {
 		return false;
 	};
 
-	//initial states
 	$("#output").html("<div class='message'><em>Getting games list...</em></div>");
-
-	$("#selectAll").click(function() {
-		$("input[type=checkbox]").each(function() {
-			$(this).prop('checked', true)
-		});
-	});
-
-	$("#selectNone").click(function() {
-		$("input[type=checkbox]").each(function() {
-			$(this).prop('checked', false)
-		});
-	});
 
 	function getList() {
 		var total = 0;
@@ -92,9 +79,17 @@ $(document).ready(function() {
 			$filters.append(htmlstring);
 		});
 		$("#output").html("<div class='message'><em>Games list retrieved successfully. Standing by...</em></div>");
-		$("#suggest").removeClass("disabled");
-		$("#listAll").removeClass("disabled");
-		$("#filters").removeClass("disabled");
+		$("#suggest, #listAll, #filters").removeClass("disabled");
+		$("#selectAll").click(function() {
+			$("input[type=checkbox]").each(function() {
+				$(this).prop('checked', true)
+			});
+		});
+		$("#selectNone").click(function() {
+			$("input[type=checkbox]").each(function() {
+				$(this).prop('checked', false)
+			});
+		});
 		$("#suggest").click(function() {
 			getSuggestion();
 		});
