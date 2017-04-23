@@ -1,59 +1,75 @@
 $(document).ready(function() {
 
-	//https://docs.google.com/spreadsheets/d/1uELdREN_R8thoKZOqJMhgC4hiFOUkcEkb8GJTwhNVaU/edit?usp=sharing
+	var url = "https://spreadsheets.google.com/feeds/list/" + spreadsheetID + "/od6/public/values";
 
-	function createCORSRequest(method, url) {
-		var xhr = new XMLHttpRequest();
-		if ("withCredentials" in xhr) {
-
-			// Check if the XMLHttpRequest object has a "withCredentials" property.
-			// "withCredentials" only exists on XMLHTTPRequest2 objects.
-			xhr.open(method, url, true);
-
-		} else if ( typeof XDomainRequest != "undefined") {
-
-			// Otherwise, check if XDomainRequest.
-			// XDomainRequest only exists in IE, and is IE's way of making CORS requests.
-			xhr = new XDomainRequest();
-			xhr.open(method, url);
-
-		} else {
-
-			// Otherwise, CORS is not supported by the browser.
-			xhr = null;
-
+	$.ajax({
+		url : url,
+		type : 'GET',
+		dataType : 'text',
+		success : function(res, status) {
+			console.log('status : ' + status);
+			console.log(res);
+		},
+		error : function(res, status, error) {
+			console.log('status : ' + status);
+			console.log(res);
+			console.log(error);
 		}
-		return xhr;
-	}
+	});
 
-	var xhr = createCORSRequest('GET', url);
-	if (!xhr) {
-		throw new Error('CORS not supported');
-	}
-
-	xhr.onload = function() {
-		var responseText = xhr.responseText;
-		console.log(responseText);
-		console.log('supposedly...');
-		// process the response.
-	};
-
-	xhr.onerror = function() {
-		console.log('There was an error!');
-	};
-
-	var url = 'http://api.alice.com/cors';
-
-	// ID of the Google Spreadsheet
-	var spreadsheetID = "1uELdREN_R8thoKZOqJMhgC4hiFOUkcEkb8GJTwhNVaU";
-
-	// Make sure it is public or set to Anyone with link can view
-	//var url = "https://spreadsheets.google.com/feeds/list/" + spreadsheetID + "/od6/public/values?alt=json";
-
-	var xhr = createCORSRequest('GET', url);
-	xhr.send();
-
+	//https://docs.google.com/spreadsheets/d/1uELdREN_R8thoKZOqJMhgC4hiFOUkcEkb8GJTwhNVaU/edit?usp=sharing
 	/*
+	 function createCORSRequest(method, url) {
+	 var xhr = new XMLHttpRequest();
+	 if ("withCredentials" in xhr) {
+
+	 // Check if the XMLHttpRequest object has a "withCredentials" property.
+	 // "withCredentials" only exists on XMLHTTPRequest2 objects.
+	 xhr.open(method, url, true);
+
+	 } else if ( typeof XDomainRequest != "undefined") {
+
+	 // Otherwise, check if XDomainRequest.
+	 // XDomainRequest only exists in IE, and is IE's way of making CORS requests.
+	 xhr = new XDomainRequest();
+	 xhr.open(method, url);
+
+	 } else {
+
+	 // Otherwise, CORS is not supported by the browser.
+	 xhr = null;
+
+	 }
+	 return xhr;
+	 }
+
+	 var xhr = createCORSRequest('GET', url);
+	 if (!xhr) {
+	 throw new Error('CORS not supported');
+	 }
+
+	 xhr.onload = function() {
+	 var responseText = xhr.responseText;
+	 console.log(responseText);
+	 console.log('supposedly...');
+	 // process the response.
+	 };
+	 xhr.onerror = function() {
+	 console.log('There was an error!');
+	 };
+
+	 var url = 'http://api.alice.com/cors';
+
+	 // ID of the Google Spreadsheet
+	 var spreadsheetID = "1uELdREN_R8thoKZOqJMhgC4hiFOUkcEkb8GJTwhNVaU";
+
+	 // Make sure it is public or set to Anyone with link can view
+	 //var url = "https://spreadsheets.google.com/feeds/list/" + spreadsheetID + "/od6/public/values?alt=json";
+
+	 var xhr = createCORSRequest('GET', url);
+	 xhr.send();
+
+	 /*
 	 $.getJSON(url, function(data) {
 
 	 var entry = data.feed.entry;
