@@ -125,7 +125,7 @@ $(document).ready(function() {
 		success : function(data, status) {
 			//console.log('status : ' + status);
 
-			var test = data.getElementsByTagNameNS("entry", * , "platform");
+			var test = data.getElementsByTagNameNS("entry", "*", "platform");
 			console.log(test);
 			
 			$(data).find("entry").each(function() {
