@@ -124,11 +124,8 @@ $(document).ready(function() {
 		dataType : 'text',
 		success : function(data, status) {
 			//console.log('status : ' + status);
-			$.each(data.feed.entry, function(){
-				console.log(this);
-			});
-/*
 			$(data).find("entry").each(function() {
+				console.log($(this));
 				var name = $(this).find("name").text();
 				var platform = $(this).find("platform").text();
 				var notes = $(this).find("notes").text();
@@ -137,10 +134,10 @@ $(document).ready(function() {
 					platform : platform,
 					notes : notes
 				};
-				console.log(game);
+				//console.log(game);
 				gamesArray.push(game);
 			});
-			*/
+			
 			init();
 
 		},
