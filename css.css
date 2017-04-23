@@ -97,23 +97,26 @@ em {
 	padding: 0 10px;
 	box-sizing: border-box;
 }/*
-#workingMsg{
-	display:none;
-	position:fixed;
-	background:#000;
-	opacity:.5;
-	top:0;
-	right:0;
-	bottom:0;
-	left:0;
+ #workingMsg{
+ display:none;
+ position:fixed;
+ background:#000;
+ opacity:.5;
+ top:0;
+ right:0;
+ bottom:0;
+ left:0;
+ }
+ #workingMsg span{
+ display:block;
+ font-size:2em;
+ color:#fff;
+ top:50%;
+ margin:-1em auto 0 auto;
+ }*/
+#filters.disabled {
+	display: none;
 }
-#workingMsg span{
-	display:block;
-	font-size:2em;
-	color:#fff;
-	top:50%;
-	margin:-1em auto 0 auto;	
-}*/
 .small_btn {
 	background: #444;
 	font-size: 12px;

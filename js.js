@@ -1,9 +1,6 @@
 $(document).ready(function() {
-
 	var spreadsheetID = "1uELdREN_R8thoKZOqJMhgC4hiFOUkcEkb8GJTwhNVaU";
-
 	var url = "//spreadsheets.google.com/feeds/list/" + spreadsheetID + "/od6/public/values";
-
 	var gamesArray = [];
 	var platformsArray = [];
 
@@ -31,7 +28,7 @@ $(document).ready(function() {
 		});
 	});
 
-	function getList(xmlDoc) {
+	function getList() {
 		var total = 0;
 		var platformSelected = false;
 		$("input[type=checkbox]").each(function() {
@@ -59,7 +56,7 @@ $(document).ready(function() {
 		}
 	}
 
-	function getSuggestion(xmlDoc) {
+	function getSuggestion() {
 		//TODO; move out into single function. Possibly update whenever a checkbox changes, for performance.
 		var platformSelected = false;
 		$("input[type=checkbox]").each(function() {
@@ -75,12 +72,9 @@ $(document).ready(function() {
 					subArray.push(this);
 				}
 			});
-
 			var random = subArray[Math.floor(Math.random() * subArray.length)];
-
 			$("#output").html("<div class='suggestion'>You should play <strong>" + random.name + "</strong> (" + random.platform + ")</div>");
 			$("#details").html("Suggestion was chosen from a list of " + subArray.length + " games.");
-
 			if (random.notes != "") {
 				$("#notes").html("Notes: " + random.notes);
 			} else {
@@ -92,9 +86,15 @@ $(document).ready(function() {
 	}
 
 	function init() {
+		var $filters = $("#filters");
+		$.each(platformsArray, function(i) {
+			var htmlstring = "<li><input type='checkbox' id='" + platformsArray[i] + "' name='" + platformsArray[i] + "'/><label for='" + platformsArray[i] + "'>" + platformsArray[i] + "</label></li>";
+			$filters.append(htmlstring);
+		});
 		$("#output").html("<div class='message'><em>Games list retrieved successfully. Standing by...</em></div>");
 		$("#suggest").removeClass("disabled");
 		$("#listAll").removeClass("disabled");
+		$("#filters").removeClass("disabled");
 		$("#suggest").click(function() {
 			getSuggestion();
 		});
@@ -109,9 +109,7 @@ $(document).ready(function() {
 		type : 'GET',
 		dataType : 'text',
 		success : function(data) {
-
 			$(data).find("entry").each(function() {
-				console.log($(this));
 				var name = $(this).find("gsx\\:name").text();
 				var platform = $(this).find("gsx\\:platform").text();
 				var notes = $(this).find("gsx\\:notes").text();
@@ -126,10 +124,7 @@ $(document).ready(function() {
 					platformsArray.push(platform);
 				}
 			});
-
 			init();
-			console.log(platformsArray);
-
 		},
 		error : function(res, status, error) {
 			console.log('status : ' + status);
