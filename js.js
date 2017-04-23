@@ -41,13 +41,13 @@ $(document).ready(function() {
 		console.log('There was an error!');
 	};
 
-	//var url = 'http://api.alice.com/cors';
+	var url = 'http://api.alice.com/cors';
 
 	// ID of the Google Spreadsheet
 	var spreadsheetID = "1uELdREN_R8thoKZOqJMhgC4hiFOUkcEkb8GJTwhNVaU";
 
 	// Make sure it is public or set to Anyone with link can view
-	var url = "https://spreadsheets.google.com/feeds/list/" + spreadsheetID + "/od6/public/values?alt=json";
+	//var url = "https://spreadsheets.google.com/feeds/list/" + spreadsheetID + "/od6/public/values?alt=json";
 
 	var xhr = createCORSRequest('GET', url);
 	xhr.send();
