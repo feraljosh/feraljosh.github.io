@@ -34,6 +34,7 @@ $(document).ready(function() {
 	xhr.onload = function() {
 		var responseText = xhr.responseText;
 		console.log(responseText);
+		console.log('supposedly...');
 		// process the response.
 	};
 
