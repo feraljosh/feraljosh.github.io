@@ -122,23 +122,19 @@ $(document).ready(function() {
 		url : url,
 		type : 'GET',
 		dataType : 'text',
-		success : function(data, status) {
-			//console.log('status : ' + status);
+		success : function(data) {
 
-			var test = data.getElementsByTagNameNS("entry", "*", "platform");
-			console.log(test);
-			
 			$(data).find("entry").each(function() {
 				console.log($(this));
-				var name = $(this).find("name").text();
-				var platform = $(this).find("platform").text();
-				var notes = $(this).find("notes").text();
+				var name = $(this).find("gsx\\:name").text();
+				var platform = $(this).find("gsx\\:platform").text();
+				var notes = $(this).find("gsx\\:notes").text();
 				var game = {
 					name : name,
 					platform : platform,
 					notes : notes
 				};
-				//console.log(game);
+				console.log(game);
 				gamesArray.push(game);
 			});
 
