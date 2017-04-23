@@ -124,6 +124,10 @@ $(document).ready(function() {
 		dataType : 'text',
 		success : function(data, status) {
 			//console.log('status : ' + status);
+
+			var test = data.getElementsByTagNameNS("entry", * , "platform");
+			console.log(test);
+			
 			$(data).find("entry").each(function() {
 				console.log($(this));
 				var name = $(this).find("name").text();
@@ -137,7 +141,7 @@ $(document).ready(function() {
 				//console.log(game);
 				gamesArray.push(game);
 			});
-			
+
 			init();
 
 		},
