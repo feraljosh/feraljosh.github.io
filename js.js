@@ -2,7 +2,7 @@ $(document).ready(function() {
 	
 	var spreadsheetID = "1uELdREN_R8thoKZOqJMhgC4hiFOUkcEkb8GJTwhNVaU";
 
-	var url = "https://spreadsheets.google.com/feeds/list/" + spreadsheetID + "/od6/public/values";
+	var url = "//spreadsheets.google.com/feeds/list/" + spreadsheetID + "/od6/public/values";
 
 	$.ajax({
 		url : url,
