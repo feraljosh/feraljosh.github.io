@@ -114,7 +114,7 @@ em {
  top:50%;
  margin:-1em auto 0 auto;
  }*/
-#filters.disabled {
+.disabled {
 	display: none;
 }
 .small_btn {
@@ -134,11 +134,13 @@ em {
 	border-color: #fff;
 	color: #fff;
 }
+/*
 .small_btn.disabled {
 	color: #555;
 	border-color: #555;
 	cursor: auto;
 }
+*/
 .lg_btn {
 	background: #444;
 	color: #96beff;
@@ -157,11 +159,13 @@ em {
 	border-color: #fff;
 	color: #fff;
 }
+/*
 .lg_btn.disabled {
 	color: #555;
 	border-color: #555;
 	cursor: auto;
 }
+*/
 .centered {
 	text-align: center;
 	margin-bottom: 20px;

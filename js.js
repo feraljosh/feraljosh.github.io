@@ -79,7 +79,7 @@ $(document).ready(function() {
 			$filters.append(htmlstring);
 		});
 		$("#output").html("<div class='message'><em>Games list retrieved successfully. Standing by...</em></div>");
-		$("#suggest, #listAll, #filters").removeClass("disabled");
+		$(".disabled").removeClass("disabled");
 		$("#selectAll").click(function() {
 			$("input[type=checkbox]").each(function() {
 				$(this).prop('checked', true)
