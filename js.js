@@ -6,7 +6,17 @@ $(document).ready(function() {
 
 	var gamesArray = [];
 	var platformsArray = [];
-	
+
+	//helper
+	Array.prototype.contains = function(v) {
+		for (var i = 0; i < this.length; i++) {
+			if (this[i] === v)
+				return true;
+		}
+		return false;
+	};
+
+	//initial states
 	$("#output").html("<div class='message'><em>Getting games list...</em></div>");
 
 	$("#selectAll").click(function() {
@@ -14,7 +24,7 @@ $(document).ready(function() {
 			$(this).prop('checked', true)
 		});
 	});
-	
+
 	$("#selectNone").click(function() {
 		$("input[type=checkbox]").each(function() {
 			$(this).prop('checked', false)
@@ -111,8 +121,8 @@ $(document).ready(function() {
 					notes : notes
 				};
 				gamesArray.push(game);
-				
-				if(!platformsArray.contains(platform)){
+
+				if (!platformsArray.contains(platform)) {
 					platformsArray.push(platform);
 				}
 			});
