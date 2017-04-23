@@ -131,12 +131,12 @@ em {
 	color: #96beff;
 	font-size: 22px;
 	font-weight: bold;
-	padding: 12px 30px;
+	padding: 12px 34px;
 	border: 3px solid #96beff;
 	border-radius: 8px;
 	cursor: pointer;
 	text-align: center;
-	margin-bottom: 20px;
+	margin-bottom: 16px;
 	display: inline-block;
 }
 .lg_btn:hover {
