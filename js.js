@@ -31,22 +31,39 @@ $(document).ready(function() {
 		throw new Error('CORS not supported');
 	}
 
+	xhr.onload = function() {
+		var responseText = xhr.responseText;
+		console.log(responseText);
+		// process the response.
+	};
+
+	xhr.onerror = function() {
+		console.log('There was an error!');
+	};
+
+	//var url = 'http://api.alice.com/cors';
+
 	// ID of the Google Spreadsheet
 	var spreadsheetID = "1uELdREN_R8thoKZOqJMhgC4hiFOUkcEkb8GJTwhNVaU";
 
 	// Make sure it is public or set to Anyone with link can view
 	var url = "https://spreadsheets.google.com/feeds/list/" + spreadsheetID + "/od6/public/values?alt=json";
 
-	$.getJSON(url, function(data) {
+	var xhr = createCORSRequest('GET', url);
+	xhr.send();
 
-		var entry = data.feed.entry;
+	/*
+	 $.getJSON(url, function(data) {
 
-		$(entry).each(function() {
-			// Column names are name, age, etc.
-			$('.results').prepend('<h2>' + this.gsx$name.$t + '</h2><p>' + this.gsx$age.$t + '</p>');
-		});
+	 var entry = data.feed.entry;
 
-	});
+	 $(entry).each(function() {
+	 // Column names are name, age, etc.
+	 $('.results').prepend('<h2>' + this.gsx$name.$t + '</h2><p>' + this.gsx$age.$t + '</p>');
+	 });
+
+	 });
+	 */
 
 	/*
 	 var gamesArray = [];
